@@ -1,0 +1,3 @@
+npx sequelize model:create --underscored --name user --attributes username:string,email:string,full_name:string,password:string,user_type:string,country_code:string,account_source:string,delete_flag:boolean
+
+npx sequelize model:create --underscored --name session --attributes sid:string,sess:json,expire:date

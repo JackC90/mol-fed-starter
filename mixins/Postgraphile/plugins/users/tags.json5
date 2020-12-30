@@ -1,0 +1,54 @@
+{
+	version: 1,
+	config: {
+		class: {
+			users: {
+				tags: {
+					omit: "create,delete,all,filter",
+				},
+				attribute: {
+					id: {
+						tags: {
+							omit: "update,create,delete",
+						},
+					},
+					password: {
+						tags: {
+							omit: "read,update,create,delete,all,many",
+						},
+					},
+					user_type: {
+						tags: {
+							omit: "update,create,delete",
+						},
+					},
+					account_source: {
+						tags: {
+							omit: "update,create,delete",
+						},
+					},
+					is_verified: {
+						tags: {
+							omit: "update,create,delete",
+						},
+					},
+					delete_flag: {
+						tags: {
+							omit: "update,create,delete",
+						},
+					},
+					created_at: {
+						tags: {
+							omit: "update,create,delete",
+						},
+					},
+					updated_at: {
+						tags: {
+							omit: "update,create,delete",
+						},
+					},
+				},
+			},
+		},
+	},
+}
